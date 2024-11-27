@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Form Container */
+.register-container {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.register-container h1 {
+    margin-bottom: 1rem;
+    color: #ff7e5f;
+}
+
+.register-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="password"] {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.register-container button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: white;
+    background: #ff7e5f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.register-container button:hover {
+    background: #e66453;
+    transform: scale(1.05);
+}
+
+.register-container a {
+    margin-top: 1rem;
+    display: block;
+    color: #ff7e5f;
+    text-decoration: none;
+}
+
+.register-container a:hover {
+    text-decoration: underline;
+}

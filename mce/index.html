@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Resource Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Student Resource Hub</h1>
+        <p>Access all your academic resources in one place.</p>
+    </header>
+    <main>
+        <section class="resources">
+            <h3>Academic Resources</h3>
+            <p>Select your department to access categorized resources:</p>
+            <div class="departments">
+                <button onclick="loadResources('CS')">Computer Science (CS)</button>
+                <button onclick="loadResources('IS')">Information Science (IS)</button>
+                <button onclick="loadResources('ME')">Mechanical Engineering (ME)</button>
+                <button onclick="loadResources('CSD')">Computer Science and Design (CSD)</button>
+                <button onclick="loadResources('CSDS')">CS with Data Science (CSDS)</button>
+                <button onclick="loadResources('AIML')">AI & ML (AIML)</button>
+            </div>
+            <div id="resourceContainer">
+                <!-- Resources will be loaded dynamically here -->
+            </div>
+        </section>
+    </main>
+    <script src="dashboard.js"></script>
+</body>
+</html>
